@@ -1,0 +1,30 @@
+.tablestyle{
+    font-size: 18px;
+    font-family: lato;
+    border: 2px solid rgb(0, 0, 0);
+    width: 700px;
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 50px;
+    border-radius: 50px;
+    
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.tablestyle thead td{
+    background-color: rgb(17, 151, 129) !important;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: solid black;
+}
+.tablestyle tr td{
+    background-color: rgb(71, 170, 154);
+    border: 2px solid black;
+    padding-left: 15px;
+}
+.tablestyle td tr{
+    border: 2px solid black;
+    padding: 40px;
+}
